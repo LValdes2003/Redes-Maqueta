@@ -18,7 +18,10 @@ line vty 0 15
 login local
 transport input ssh
 exit
+access-list 1 permit 192.168.10.0 0.0.0.255
+access-list 1 deny any
+line vty 0 15
+access-class 1 in
+exit
 do write
-access-list acceso permit 192.168.10.0 0.0.0.255
-access-list acceso deny any
 ```
