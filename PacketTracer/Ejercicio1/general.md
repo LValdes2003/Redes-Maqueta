@@ -1,0 +1,12 @@
+# Direcciones IP
+- Vlan 10: admin
+  - 192.168.10.0/24
+- Vlan 20: LAN
+  - 172.16.0.0/16
+- Vlan 30: streaming
+- Vlan 40: servidores
+  - 10.11.11.32/27
+- Vlan 100: WLAN (Wireless)
+  - 10.20.0.0/16
+- DMZ (Sin VLAN)
+  - 10.11.11.0/27
